@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  5 DEC 2023 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  8 DEC 2023 10:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,25 +564,150 @@ LaTeX Font Info:    Font shape `T1/txss/m/n' will be
 LaTeX Font Info:    Font shape `T1/txss/bx/n' will be
 (Font)              scaled to size 10.40245pt on input line 79.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+Underfull \vbox (badness 8132) has occurred while \output is active []
+
+
+
+Package natbib Warning: Citation `Bertout' on page 2 undefined on input line 194.
+
+
+Package natbib Warning: Citation `Wagenblast' on page 2 undefined on input line 194.
+
+
+Package natbib Warning: Citation `LA' on page 2 undefined on input line 194.
+
+
+Package natbib Warning: Citation `Bertout' on page 2 undefined on input line 201.
+
+
+Package natbib Warning: Citation `Bertout' on page 2 undefined on input line 202.
+
+[2]
+Overfull \hbox (30.40292pt too wide) in alignment at lines 225--228
+[][][] []
+ []
+
+
+Package natbib Warning: Citation `Bertout' on page 3 undefined on input line 229.
+
+<Figure_1b.png, id=21, 462.528pt x 346.896pt>
+File: Figure_1b.png Graphic file (type png)
+<use Figure_1b.png>
+Package pdftex.def Info: Figure_1b.png  used on input line 234.
+(pdftex.def)             Requested size: 261.76535pt x 196.33536pt.
+<Figure_1c.png, id=23, 462.528pt x 346.896pt>
+File: Figure_1c.png Graphic file (type png)
+<use Figure_1c.png>
+Package pdftex.def Info: Figure_1c.png  used on input line 235.
+(pdftex.def)             Requested size: 261.76535pt x 196.33536pt.
+
+Overfull \hbox (1.90001pt too wide) in paragraph at lines 234--236
+[][] [] 
+ []
+
+<RWCep.png, id=24, 462.528pt x 346.896pt>
+File: RWCep.png Graphic file (type png)
+<use RWCep.png>
+Package pdftex.def Info: RWCep.png  used on input line 253.
+(pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
+
+Package natbib Warning: Citation `LA' on page 3 undefined on input line 261.
+
+
+Package natbib Warning: Citation `Donati' on page 3 undefined on input line 261.
+
+
+Package natbib Warning: Citation `Auriere' on page 3 undefined on input line 262.
+
+<Fig1_Nadira1.png, id=25, 462.528pt x 346.896pt>
+File: Fig1_Nadira1.png Graphic file (type png)
+<use Fig1_Nadira1.png>
+Package pdftex.def Info: Fig1_Nadira1.png  used on input line 285.
+(pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4 </Users/art2/0art/art74/Figure_1b.png> </Users/art2/0art/art74/Figure_1c.png> </Users/art2/0art/art74/RWCep.png>]
+
+Package natbib Warning: Citation `Kravchenko' on page 5 undefined on input line 319.
+
+<Fig1_Nadira2.png, id=35, 462.528pt x 346.896pt>
+File: Fig1_Nadira2.png Graphic file (type png)
+<use Fig1_Nadira2.png>
+Package pdftex.def Info: Fig1_Nadira2.png  used on input line 328.
+(pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
+
+Package natbib Warning: Citation `Kravchenko' on page 5 undefined on input line 347.
+
+<bissecteurmaskKateryna.png, id=36, 1387.584pt x 807.2559pt>
+File: bissecteurmaskKateryna.png Graphic file (type png)
+<use bissecteurmaskKateryna.png>
+Package pdftex.def Info: bissecteurmaskKateryna.png  used on input line 354.
+(pdftex.def)             Requested size: 418.82616pt x 243.65677pt.
+<bissecteurcouche06_07.png, id=37, 1387.584pt x 807.2559pt>
+File: bissecteurcouche06_07.png Graphic file (type png)
+<use bissecteurcouche06_07.png>
+Package pdftex.def Info: bissecteurcouche06_07.png  used on input line 361.
+(pdftex.def)             Requested size: 418.82616pt x 243.65677pt.
+
+Underfull \vbox (badness 1584) has occurred while \output is active []
+
+<Bisectors_cual1.png, id=38, 462.528pt x 346.896pt>
+File: Bisectors_cual1.png Graphic file (type png)
+<use Bisectors_cual1.png>
+Package pdftex.def Info: Bisectors_cual1.png  used on input line 370.
+(pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 </Users/art2/0art/art74/Fig1_Nadira1.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 </Users/art2/0art/art74/Fig1_Nadira2.png> </Users/art2/0art/art74/bissecteurmaskKateryna.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 </Users/art2/0art/art74/bissecteurcouche06_07.png> </Users/art2/0art/art74/Bisectors_cual1.png>]
+<Bisectors_accel.png, id=54, 462.528pt x 346.896pt>
+File: Bisectors_accel.png Graphic file (type png)
+<use Bisectors_accel.png>
+Package pdftex.def Info: Bisectors_accel.png  used on input line 405.
+(pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
+
 No file art74.bbl.
-[1{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
+Package natbib Warning: There were undefined citations.
 
+[8
 
-] (/Users/art2/0art/art74/art74.aux) ) 
+] [9 </Users/art2/0art/art74/Bisectors_accel.png>] (/Users/art2/0art/art74/art74.aux) ) 
 Here is how much of TeX's memory you used:
- 5875 strings out of 492649
- 77931 string characters out of 6129622
- 153371 words of memory out of 5000000
- 9580 multiletter control sequences out of 15000+600000
- 89115 words of font info for 176 fonts, out of 8000000 for 9000
+ 5954 strings out of 492649
+ 79146 string characters out of 6129622
+ 169444 words of memory out of 5000000
+ 9628 multiletter control sequences out of 15000+600000
+ 107757 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,45p,623b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/art2/0art/art74/art74.pdf (1 page, 56558 bytes).
+ 41i,12n,45p,627b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on /Users/art2/0art/art74/art74.pdf (9 pages, 1114696 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,54 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Auri{\`e}re {et~al.}(2016)Auri{\`e}re, L{\'o}pez~Ariste, Mathias,
+  L{\`e}bre, Josselin, Montarg{\`e}s, Petit, Chiavassa, Paletou, Fabas,
+  Konstantinova-Antova, Donati, Grunhut, Wade, Herpin, Kervella, Perrin, \&
+  Tessore}]{auriere_discovery_2016}
+Auri{\`e}re, M., L{\'o}pez~Ariste, A., Mathias, P., {et~al.} 2016, Astronomy
+  and Astrophysics, 591, A119
+
+\bibitem[{Bertout \& Magnan(1987)}]{bertout_line_1987}
+Bertout, C. \& Magnan, C. 1987, Astronomy and Astrophysics, 183, 319
+
+\bibitem[{Chandrasekhar(1945)}]{chandrasekhar_formation_1945}
+Chandrasekhar, S. 1945, Reviews of Modern Physics, 17, 138
+
+\bibitem[{Josselin \& Plez(2007)}]{josselin_atmospheric_2007}
+Josselin, E. \& Plez, B. 2007, Astronomy and Astrophysics, 469, 671
+
+\bibitem[{Kravchenko {et~al.}(2019)Kravchenko, Chiavassa, Van~Eck, Jorissen,
+  Merle, Freytag, \& Plez}]{kravchenko_tomography_2019}
+Kravchenko, K., Chiavassa, A., Van~Eck, S., {et~al.} 2019, Astronomy and
+  Astrophysics, 632, A28, aDS Bibcode: 2019A\&A...632A..28K
+
+\bibitem[{Kravchenko {et~al.}(2018)Kravchenko, Van~Eck, Chiavassa, Jorissen,
+  Freytag, \& Plez}]{kravchenko_tomography_2018}
+Kravchenko, K., Van~Eck, S., Chiavassa, A., {et~al.} 2018, Astronomy and
+  Astrophysics, 610, A29
+
+\bibitem[{L{\'o}pez~Ariste {et~al.}(2022)L{\'o}pez~Ariste, Georgiev, Mathias,
+  L{\`e}bre, Wavasseur, Josselin, Konstantinova-Antova, \&
+  Roudier}]{lopez_ariste_three-dimensional_2022}
+L{\'o}pez~Ariste, A., Georgiev, S., Mathias, P., {et~al.} 2022,
+  Three-dimensional imaging of convective cells in the photosphere of
+  {Betelgeuse}, Tech. rep., publication Title: arXiv e-prints ADS Bibcode:
+  2022arXiv220212011L Type: article
+
+\bibitem[{L{\'o}pez~Ariste {et~al.}(2018)L{\'o}pez~Ariste, Mathias, Tessore,
+  L{\`e}bre, Auri{\`e}re, Petit, Ikhenache, Josselin, Morin, \&
+  Montarg{\`e}s}]{lopez_ariste_convective_2018}
+L{\'o}pez~Ariste, A., Mathias, P., Tessore, B., {et~al.} 2018, Astronomy and
+  Astrophysics, 620, A199
+
+\bibitem[{L{\'o}pez~Ariste {et~al.}(2023)L{\'o}pez~Ariste, Wavasseur, Mathias,
+  L{\`e}bre, Tessore, \& Georgiev}]{lopez_ariste_height_2023}
+L{\'o}pez~Ariste, A., Wavasseur, M., Mathias, P., {et~al.} 2023, Astronomy and
+  Astrophysics, 670, A62, aDS Bibcode: 2023A\&A...670A..62L
+
+\bibitem[{Wagenblast {et~al.}(1983)Wagenblast, Bertout, \&
+  Bastian}]{wagenblast_spectral_1983}
+Wagenblast, R., Bertout, C., \& Bastian, U. 1983, Astronomy and Astrophysics,
+  120, 6
+
+\end{thebibliography}

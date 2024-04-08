@@ -1,14 +1,14 @@
 # Fdb version 3
-["bibtex art74"] 1709288981 "art74.aux" "art74.bbl" "art74" 1709289806
+["bibtex art74"] 1710337828 "art74.aux" "art74.bbl" "art74" 1710337829
   "/Users/art2/TeX/aanda/bibtex/aa.bst" 1490182069 32103 296074362bd3e822c5209e1570c1d28f ""
-  "art74.aux" 1709289498 7438 5aee45e828dc54e4f187064f5e7c1fd1 ""
+  "art74.aux" 1710337829 7358 760cb0f386d9defbc4f442fb6de21a60 ""
   "art74.bib" 1709287091 32967 71a103166174a4aca62df508370a6626 ""
   (generated)
   "art74.bbl"
   "art74.blg"
-["pdflatex"] 1709289497 "/Users/art2/0art/art74/art74.tex" "/Users/art2/0art/art74/art74.pdf" "art74" 1709289806
-  "/Users/art2/0art/art74/art74.aux" 1709289498 7438 5aee45e828dc54e4f187064f5e7c1fd1 ""
-  "/Users/art2/0art/art74/art74.tex" 1709289497 55760 706f3c74a938167ff64f629ae4fa49f2 ""
+["pdflatex"] 1710337828 "/Users/art2/0art/art74/art74.tex" "/Users/art2/0art/art74/art74.pdf" "art74" 1710337829
+  "/Users/art2/0art/art74/art74.aux" 1710337829 7358 760cb0f386d9defbc4f442fb6de21a60 ""
+  "/Users/art2/0art/art74/art74.tex" 1710337826 55746 b2b7716098b1dffb1e34355a61a09348 ""
   "/Users/art2/TeX/aanda/aa.cls" 1490182069 65331 eca53c2909c3fbfe3da312189ff7faaf ""
   "/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
@@ -151,15 +151,15 @@
   "Figure_1b.png" 1701870068 36890 3e9274a20852ca634de710199d64db0f ""
   "Figure_1c.png" 1701874925 38571 d497a349fedc91a722f62ece17b7caf9 ""
   "Histeresis.png" 1709288185 42988 a3925527fd4a17f5f549cdfaff6cc851 ""
-  "RWCep.png" 1701958072 98802 89d54b8a6f86956886bc3e3974784d7c ""
-  "art74.aux" 1709289498 7438 5aee45e828dc54e4f187064f5e7c1fd1 ""
-  "art74.bbl" 1709288981 2551 2b567ea5c47d2775fa08f481a501f3b1 "bibtex art74"
-  "art74.tex" 1709289497 55760 706f3c74a938167ff64f629ae4fa49f2 ""
+  "RWCep.png" 1710149037 134853 64e6e601fc92d35c8f6af02c445ec91f ""
+  "art74.aux" 1710337829 7358 760cb0f386d9defbc4f442fb6de21a60 ""
+  "art74.bbl" 1710337828 2551 2b567ea5c47d2775fa08f481a501f3b1 "bibtex art74"
+  "art74.tex" 1710337826 55746 b2b7716098b1dffb1e34355a61a09348 ""
   "bissecteurcouche06_07.png" 1701789021 397164 88ab542e6c25632793d748e167007472 ""
   "bissecteurmaskKateryna.png" 1701789021 430431 2c17c0c2e3e66087071b7ac6515aa7e7 ""
   (generated)
-  "art74.aux"
-  "art74.pdf"
   "/Users/art2/0art/art74/art74.pdf"
+  "art74.pdf"
   "art74.log"
+  "art74.aux"
   "/Users/art2/0art/art74/art74.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  1 MAR 2024 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.11.6)  13 MAR 2024 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -596,79 +596,86 @@ Overfull \hbox (1.90001pt too wide) in paragraph at lines 246--252
 [][] [] 
  []
 
-<RWCep.png, id=24, 462.528pt x 346.896pt>
+<RWCep.png, id=24, 867.24pt x 289.08pt>
 File: RWCep.png Graphic file (type png)
 <use RWCep.png>
 Package pdftex.def Info: RWCep.png  used on input line 273.
-(pdftex.def)             Requested size: 523.5307pt x 392.67073pt.
+(pdftex.def)             Requested size: 523.5307pt x 174.51678pt.
 
 Package natbib Warning: Citation `Donati' on page 3 undefined on input line 283.
 
-[3] [4 </Users/art2/0art/art74/Figure_1b.png> </Users/art2/0art/art74/Figure_1c.png> </Users/art2/0art/art74/RWCep.png>]
-<Fig_integrationEquateur.png, id=34, 462.528pt x 346.896pt>
+[3]
+<Fig_integrationEquateur.png, id=28, 462.528pt x 346.896pt>
 File: Fig_integrationEquateur.png Graphic file (type png)
 <use Fig_integrationEquateur.png>
 Package pdftex.def Info: Fig_integrationEquateur.png  used on input line 310.
 (pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
-<Fig1_Nadira1.png, id=35, 462.528pt x 346.896pt>
+<Fig1_Nadira1.png, id=29, 462.528pt x 346.896pt>
 File: Fig1_Nadira1.png Graphic file (type png)
 <use Fig1_Nadira1.png>
 Package pdftex.def Info: Fig1_Nadira1.png  used on input line 333.
 (pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
-<Fig1_Nadira2.png, id=36, 462.528pt x 346.896pt>
+ [4 </Users/art2/0art/art74/Figure_1b.png> </Users/art2/0art/art74/Figure_1c.png> </Users/art2/0art/art74/RWCep.png>] [5 </Users/art2/0art/art74/Fig_integrationEquateur.png> </Users/art2/0art/art74/Fig1_Nadira1.png>]
+<Fig1_Nadira2.png, id=41, 462.528pt x 346.896pt>
 File: Fig1_Nadira2.png Graphic file (type png)
 <use Fig1_Nadira2.png>
 Package pdftex.def Info: Fig1_Nadira2.png  used on input line 385.
 (pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
- [5] [6 </Users/art2/0art/art74/Fig_integrationEquateur.png> </Users/art2/0art/art74/Fig1_Nadira1.png>]
-<bissecteurmaskKateryna.png, id=45, 1387.584pt x 807.2559pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+<bissecteurmaskKateryna.png, id=42, 1387.584pt x 807.2559pt>
 File: bissecteurmaskKateryna.png Graphic file (type png)
 <use bissecteurmaskKateryna.png>
 Package pdftex.def Info: bissecteurmaskKateryna.png  used on input line 426.
 (pdftex.def)             Requested size: 418.82616pt x 243.65677pt.
-<bissecteurcouche06_07.png, id=46, 1387.584pt x 807.2559pt>
+<bissecteurcouche06_07.png, id=43, 1387.584pt x 807.2559pt>
 File: bissecteurcouche06_07.png Graphic file (type png)
 <use bissecteurcouche06_07.png>
 Package pdftex.def Info: bissecteurcouche06_07.png  used on input line 434.
 (pdftex.def)             Requested size: 418.82616pt x 243.65677pt.
-<Bisectors_cual1.png, id=47, 462.528pt x 346.896pt>
+<Bisectors_cual1.png, id=44, 462.528pt x 346.896pt>
 File: Bisectors_cual1.png Graphic file (type png)
 <use Bisectors_cual1.png>
 Package pdftex.def Info: Bisectors_cual1.png  used on input line 444.
 (pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7 </Users/art2/0art/art74/Fig1_Nadira2.png>]
-<Bisectors_accel.png, id=53, 462.528pt x 346.896pt>
+ [7 </Users/art2/0art/art74/Fig1_Nadira2.png> </Users/art2/0art/art74/bissecteurmaskKateryna.png>]
+<Bisectors_accel.png, id=54, 462.528pt x 346.896pt>
 File: Bisectors_accel.png Graphic file (type png)
 <use Bisectors_accel.png>
 Package pdftex.def Info: Bisectors_accel.png  used on input line 486.
 (pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
 
-Underfull \vbox (badness 2165) has occurred while \output is active []
-
-
 
 LaTeX Warning: Reference `loop' on page 8 undefined on input line 505.
 
 
-Underfull \vbox (badness 2165) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8 </Users/art2/0art/art74/bissecteurmaskKateryna.png> </Users/art2/0art/art74/bissecteurcouche06_07.png>]
-<Histeresis.png, id=59, 462.528pt x 346.896pt>
+<Histeresis.png, id=55, 462.528pt x 346.896pt>
 File: Histeresis.png Graphic file (type png)
 <use Histeresis.png>
 Package pdftex.def Info: Histeresis.png  used on input line 509.
 (pdftex.def)             Requested size: 418.82616pt x 314.13551pt.
+ [8 </Users/art2/0art/art74/bissecteurcouche06_07.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 6001) has occurred while \output is active []
+
+Underfull \vbox (badness 6188) has occurred while \output is active []
 
  [9 </Users/art2/0art/art74/Bisectors_cual1.png>] [10 </Users/art2/0art/art74/Bisectors_accel.png> </Users/art2/0art/art74/Histeresis.png>] (/Users/art2/0art/art74/art74.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[11] (/Users/art2/0art/art74/art74.aux)
+[11
+
+] (/Users/art2/0art/art74/art74.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -676,13 +683,13 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  6000 strings out of 492649
  80509 string characters out of 6129622
- 168464 words of memory out of 5000000
+ 168463 words of memory out of 5000000
  9671 multiletter control sequences out of 15000+600000
  108394 words of font info for 199 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,45p,656b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,45p,655b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxbmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on /Users/art2/0art/art74/art74.pdf (11 pages, 1260306 bytes).
+Output written on /Users/art2/0art/art74/art74.pdf (11 pages, 1281572 bytes).
 PDF statistics:
  112 PDF objects out of 1000 (max. 8388607)
  64 compressed objects within 1 object stream

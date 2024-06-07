@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2018)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: art74.aux
+The style file: /Users/art2/TeX/aanda/bibtex/aa.bst
+Database file #1: art74.bib
+Warning--I didn't find a database entry for "XXX"
+Warning--I didn't find a database entry for "muCep"
+Warning--I didn't find a database entry for "Donati"
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty institution in lopez_ariste_three-dimensional_2022
+You've used 10 entries,
+            3039 wiz_defined-function locations,
+            731 strings with 7111 characters,
+and the built_in function-call counts, 5993 in all, are:
+= -- 486
+> -- 593
+< -- 3
++ -- 203
+- -- 189
+* -- 533
+:= -- 1125
+add.period$ -- 10
+call.type$ -- 10
+change.case$ -- 107
+chr.to.int$ -- 10
+cite$ -- 11
+duplicate$ -- 184
+empty$ -- 258
+format.name$ -- 215
+if$ -- 1166
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 9
+newline$ -- 34
+num.names$ -- 40
+pop$ -- 95
+preamble$ -- 1
+purify$ -- 103
+quote$ -- 0
+skip$ -- 160
+stack$ -- 0
+substring$ -- 210
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 90
+warning$ -- 1
+while$ -- 39
+width$ -- 0
+write$ -- 106
+(There were 4 warnings)

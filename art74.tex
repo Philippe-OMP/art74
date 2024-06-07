@@ -56,6 +56,12 @@ Toulouse, France.}}
 % 5 {} token are mandatory
  
   \abstract
+  Spectropolarimetry of atomic lines in the spectra of Betelgeuse and other Red SuperGiants presents broad  line profiles in 
+  linear polarization, but narrow profiles in intensity. Recent observations of the Red SuperGiant RW Cep show on the other 
+  hand broad intensity profiles comparable to those in linear polarization. This observation hints that the previous inconsistency 
+  observed in other Red SuperGiants is just a temporary situation of the atmosphere of a given star. We propose an explanation 
+  for both cases based on the presence of strong gradients, larger than the thermal broadening of the spectral line. Using 
+  analytical but 
   % context heading (optional)
   {}
   % {} leave it empty if necessary  
@@ -185,7 +191,7 @@ disk, in spite of the obvious presence of density and temperature variations. We
 formation of the line. We parameterize this region of formation with a geometrical distance $z$ which will vary from 0 through 1, $z=0$ being at 
 the strict bottom end of the region of formation, and $z=1$ being at the strict top end. At each line of sight, the emergent spectrum will look like
 \begin{equation}
-   I(\nu)=1-e^{-\tau(\nu)}
+   I(\nu)=e^{-\tau(\nu)}  % Corrected formula, the 1 has disappeared, it was wrong!
 \end{equation}
 where $\tau(\nu)$ is the total opacity along the line of sight, and we chose to parameterize wavelength in terms of velocity differences $v$ respect 
 to the local reference frame (where $v=0$\,\kms).The total opacity is computed as 
@@ -214,7 +220,7 @@ of the features described by those authors.
 It is worth to solve analytically the integral in Eq. (\ref{opacityintegral}) for several gradients of the velocity with $z$.  In the first and straightforward case the 
 velocity is constant with $z$, but projects itself onto the line of sight. We find that
 \begin{equation}
-   \tau(\nu)=k \phi[\nu-v(z,\theta,\chi)\cos \theta](z_1-z_0)
+   \tau(\nu)=k (z_1-z_0)\phi[\nu-v(z,\theta,\chi)\cos \theta]
 \end{equation}
 As one adds profiles for different values of $\theta$ one recovers a flat-bottom or square profile. This is what one would expect from a constant 
 and homogeneous rising velocity of the plasma. This is not what one sees, but yet one does not expect the velocity to be constant with $z$.
@@ -222,7 +228,7 @@ and homogeneous rising velocity of the plasma. This is not what one sees, but ye
 Hence, our second case assumes a linear dependence of the velocity with $z$ in the form $v(z)=v_0(1-z)$ which ensures that the velocity dimishes 
 with height. The integral comes out to be
 \begin{equation}
-   \tau(\nu)=\frac{\Delta k}{v_0\cos\theta}\frac{\sqrt{\pi}}{2} \left( erf\left(\frac{\nu}{\Delta}\right) - erf\left(\frac{\nu-v_0\cos\theta}{\Delta}\right) \right)
+   \tau(\nu)=\frac{\Delta k}{v_0\cos\theta}\frac{\sqrt{\pi}}{2} \left[ erf\left(\frac{\nu}{\Delta}\right) - erf\left(\frac{\nu-v_0\cos\theta}{\Delta}\right) \right]
 \end{equation}
 where $erf$ stands for the error function. Whenever $v_0$ is smaller than $\Delta$ this is just a slightly deformed gaussian that keeps adding 
 up for all and every point over the disk. However if $v_0$ is larger than $\Delta$ we find that for large values of $\theta$, near the limb, quasi-gaussian 
@@ -233,8 +239,8 @@ However a linear dependence of the velocity with $z$ is not what one naively exp
 rather expects a square root dependence, $v(z)=v_0\sqrt{1-\beta z}$, where  $\beta$ modulates  the final velocity of the plasma. Such 
 velocity can also be readily integrated and the total opacity per line of sight comes out to be
 \begin{eqnarray}
-   \tau(\nu)&=&\frac{\Delta k \nu \sqrt{\pi}}{\beta v_0^2\cos^2\theta} \left( \rm{erf}\left(\frac{\nu-v_0\cos \theta\sqrt{1-\beta z}}{\Delta}\right)  \\
-   &&-\rm{erf}\left(\frac{\nu-v_0\cos\theta}{\Delta}\right) \right)+\nonumber \\
+   \tau(\nu)&=&\frac{\Delta k \nu \sqrt{\pi}}{\beta v_0^2\cos^2\theta} \left[ \rm{erf}\left(\frac{\nu-v_0\cos \theta\sqrt{1-\beta z}}{\Delta}\right) \right.  \nonumber \\
+   &&\left. -\rm{erf}\left(\frac{\nu-v_0\cos\theta}{\Delta}\right) \right]+\nonumber \\
    &&+\frac{\Delta^2}{\beta v_0^2\cos^2\theta}\left(e^{-\frac{(\nu-v_0\cos\theta \sqrt(1-\beta z))^2}{\Delta^2}}-e^{-\frac{(\nu-v_0\cos\theta)^2}{\Delta^2}}\right)
 \end{eqnarray}
 One readily notices the linear dependence on $\nu$ on the first term of this solution, a fact already brought up by \cite{bertout_line_1987} 
@@ -243,13 +249,13 @@ between our two approaches. The resulting profiles, if this term dominates over 
 can also be seen in Fig.\ref{example}
 
 \begin{figure*}
-\includegraphics[width=0.5\textwidth]{Figure_1b.png}
-\includegraphics[width=0.5\textwidth]{Figure_1c.png}
+\includegraphics[width=0.5\textwidth]{Fig2a.png}
+\includegraphics[width=0.5\textwidth]{Fig2b.png}
 \caption{Examples of asymmetric profiles generated when strong gradients are present along the line of sight. 
-On the left a linear gradient from the maximum velocity to zero in the region of formation is used. On the right the 
+On the left a linear gradient (or rather a constant velocity?) from the maximum velocity to zero in the region of formation is used. On the right the 
 gradient follows a square-root law. Dashed red lines are used for individual lines of sight from disk at 
-disk center, $\theta =45^{\circ}$ and limb. Continuous, blue lines show the disk-integrated profile.  The vertical dashed 
-lines mark the radial outward velocity of the plasma $v_\rm{max}=-40$\kms in the observer framework, and the zero velocity $v_0$.}
+disk center, $\theta =45^{\circ}$ and close to the limb. Continuous, blue lines show the disk-integrated profile.  The vertical dashed 
+lines mark the radial outward velocity of the plasma $v_{\rm{max}}=-40$ \kms in the observer framework, and the zero velocity $v_0$.}
 %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
 %\caption{Velocity position (upper plot) and span (lower plot) of the linear polarization spectral features of $\mu$ Cep over the whole data set of available observations. On the top plot, dots record the position of the signal peaks, while in the bottom plot the vertical lines show the span of signal above noise level. The two horizontal lines in both plots mark the velocity of the center of mass of the star $V_*$ (red line, at +35 \kms) and the maximum velocity of the convecting plasma $V_p$ (blue line, at -35\kms). Velocities are measured in the heliocentric reference system.}
 \label{example}
@@ -270,9 +276,8 @@ appears to be what is needed to reproduce the observed intensity profiles in dif
 \section{Reproducing the observed intensity profiles.}
 
 \begin{figure*}
-   \includegraphics[width=\textwidth]{RWCep.png}
-   \caption{ Examples of profiles of RW Cep observed with NeoNarval in XXXX. The various profiles 
-   are shifted in height for better clarity. Intensity is on the left plot, Stokes Q and U are shown 
+   \includegraphics[width=\textwidth]{RWCep-LSD.pdf}
+   \caption{ Examples of profiles of RW Cep observed with NeoNarval in 2023.  Intensity is on the left plot, Stokes Q and U are shown 
    in the center and right plots.}
    %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
    %\caption{Velocity position (upper plot) and span (lower plot) of the linear polarization spectral features of $\mu$ Cep over the whole data set of available observations. On the top plot, dots record the position of the signal peaks, while in the bottom plot the vertical lines show the span of signal above noise level. The two horizontal lines in both plots mark the velocity of the center of mass of the star $V_*$ (red line, at +35 \kms) and the maximum velocity of the convecting plasma $V_p$ (blue line, at -35\kms). Velocities are measured in the heliocentric reference system.}
@@ -289,7 +294,7 @@ in recent years, after the great dimming event of the end of 2019 the levels of 
 it is our purpose to illustrate the difference in wavelength span between the linear polarisation and the intensity profile, we have 
 preferred the old data to better illustrate this discrepancy. Intensity profiles of Betelgeuse keep being in 2023 as narrow as in 2013. For our 
 second star, RW Cep, we present NeoNarval data from 
-WHICH DATES [2023, August 18th to November, 18th].  
+2023, August 18th through November, 18th.  
 
 We have seen that the presence of velocity gradients larger than the width of the line and of different dependences with $z$ opens the door to a 
 variety of profile shapes, from purely gaussian to saw-tooth shapes, from broad to narrow ones. 
@@ -307,9 +312,9 @@ together with the integrated profile along that radius. In that date, and along 
 velocities. There are however several points where the plasma is sinking and which can be seen redshifted respect to the $v_0$ velocity. All plots 
 are normalized, so we cannot see that these redshifted contributions have very low intensity and contribute nothing to the integrated profile. 
 \begin{figure*}
-   \includegraphics[width=0.8\textwidth]{Fig_integrationEquateur.png}
+   \includegraphics[width=0.8\textwidth]{Fig4.png} %Fig4_art74.py  ~/Betelgeuse/Nadira
    \caption{ Example of local (red) and integrated (blue) profiles along the vertical radius of the image of Betelgeuse that fitted best 
-   the observations of linear polarisation on 27th November 2013. All profiles are normalized for the plot.}
+   the observations of linear polarisation on 20th December 2013. All profiles are normalized to the continuum value for the sake of the visibility of the plot.}
    %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
    %\caption{Velocity position (upper plot) and span (lower plot) of the linear polarization spectral features of $\mu$ Cep over the whole data set of available observations. On the top plot, dots record the position of the signal peaks, while in the bottom plot the vertical lines show the span of signal above noise level. The two horizontal lines in both plots mark the velocity of the center of mass of the star $V_*$ (red line, at +35 \kms) and the maximum velocity of the convecting plasma $V_p$ (blue line, at -35\kms). Velocities are measured in the heliocentric reference system.}
    \label{figequateur}
@@ -322,13 +327,13 @@ Altogether wavelengths near the rest velocity $v_0$ get a larger contribution in
 
 We can now, extend the calculation to the whole disk and explore the impact of the velocity gradients, Fig. \ref{betelbeta1} shows the case 
 of $\beta=1$, that is the velocity at each point drops from the value found in the inferred image to zero 
-in the span of the formation region of the line. This is quite a large gradient near disk center, with maximum velocities reaching 40\,\km/s but the gradients reduces to  zero towards the limb. The disk-integrated profile will be a combination of saw-tooth and gaussian 
+in the span of the formation region of the line. This is quite a large gradient near disk center, with maximum velocities reaching 40\,\kms but the gradients reduces to  zero towards the limb. The disk-integrated profile will be a combination of saw-tooth and gaussian 
 profiles as in Fig.\ref{example}. But the distribution of brighness is not homogeneous, and some profiles will be given more weight 
 than others. The result can be seen in Fig. \ref{betelbeta1} where  10 observations, from 27 November 2013 through 3 March 2015, presented by 
 \cite{auriere_discovery_2016} are used as examples of brightness and velocity spatial distributions.
 
 \begin{figure*}
-   \includegraphics[width=0.8\textwidth]{Fig1_Nadira1.png}
+   \includegraphics[width=0.8\textwidth]{Fig5_art74.png}
    \caption{Left: Inferred images of Betelgeuse from 27 November 2013 through 3 March 2015 are used to integrate profiles assuming that at every point 
    the gradient is such that the velocity reduces to 0 at the top of the formation region of the line ($\beta=1$). Profiles are shifted in ordinates 
    for clarity. Right: The actual observed intensity profiles in those same dates.}
@@ -366,7 +371,7 @@ presented intensity profiles for RW Cep, though without linear polarisation, tha
 all the variability of which this RSG is capable, unlike the stable profiles of Betelgeuse.
  In Fig.\,\ref{RWbeta} we repeat 
 the  calculations of disk-integrated profiles with the same brightness and velocity distributions used for Betelgeuse in Fig.\,\ref{betelbeta1}
-(and therefore inferred 
+(and therefore inferred  
 from the fit of the observed linear polarisation of Betelgeuse), just changing the value of from $\beta=1$ to $\beta=0.2$. This value of $\beta$ means 
 that rather than dropping to zero along the formation region of the spectral line, the velocity diminishes of just 10\%. With such 
 small gradients we recover the flat-bottom profiles that we can favourably compare to the observed profiles of RW Cep. Whenever 
@@ -380,7 +385,7 @@ the actual gradients of velocity present at the particular moment of the observa
 the observed intensity profiles. 
 
 \begin{figure*}
-   \includegraphics[width=0.8\textwidth]{Fig1_Nadira2.png}
+   \includegraphics[width=0.8\textwidth]{Fig6_art74.png.png}
    \caption{Left: Same as Fig. \ref{betelbeta1} but for $\beta=0.2$. Right: THESE ARE NOT THE OBSERVED PROFILES OF RW Cep but just the profiles of Betelgeuse}
    %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
    %\caption{Velocity position (upper plot) and span (lower plot) of the linear polarization spectral features of $\mu$ Cep over the whole data set of available observations. On the top plot, dots record the position of the signal peaks, while in the bottom plot the vertical lines show the span of signal above noise level. The two horizontal lines in both plots mark the velocity of the center of mass of the star $V_*$ (red line, at +35 \kms) and the maximum velocity of the convecting plasma $V_p$ (blue line, at -35\kms). Velocities are measured in the heliocentric reference system.}
@@ -439,7 +444,7 @@ the more common C-shape bisectors.
    
 
 \begin{figure*}
-   \includegraphics[width=0.8\textwidth]{Bisectors_cual1.png}
+   \includegraphics[width=0.8\textwidth]{Fig9_art74.png}
 
    %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
    \caption{Bisectors computed using the image of Betelgeuse inferred to best fit the linear polarisation signal observed on 20 December 2013. Parabolic 
@@ -481,7 +486,7 @@ appear. These do not reproduce completely the observed bisectors of Fig.\ref{cou
 
 
 \begin{figure*}
-   \includegraphics[width=0.8\textwidth]{Bisectors_accel.png}
+   \includegraphics[width=0.8\textwidth]{Fig10_art74.png}
    \caption{Computation of bisectors as in Fig. \ref{bisector1} but with a linearly accelerating gradient. Several cases of  spatial acceleration $\beta$ 
    are presented as indicated in the labels.}
    %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
@@ -503,7 +508,7 @@ again, integrate over the disk with strong parabolic gradients ($v(z)=v_0\beta z
 profiles and also plot those values against the value of the continuum (in Fig. \ref{betelbeta1} this continuum was normalised, we now keep it).
 
 \begin{figure*}
-   \includegraphics[width=0.8\textwidth]{Histeresis.png}
+   \includegraphics[width=0.8\textwidth]{Fig11_art74.png}
    \caption{Plots of line core velocities measured over the computed intensity profiles using a parabolic velocity gradient with $\beta=1$ over the 
    series of images of Betelgeuse presented by \cite{auriere_discovery_2016} \cite{lopez_ariste_height_2023}. On the left this velocity is plotted 
    agains the continuum of the integrated profile, on the right, just in terms of date of observation. }

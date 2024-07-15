@@ -4,6 +4,7 @@ from Ylm_global import Ylm
 import pickle
 from scipy.special import erf,roots_legendre
 from scipy.optimize import fsolve
+import h5py      
 
 def bisector(wvl,perf):
 
@@ -89,17 +90,17 @@ for cual in range(10):
     Star=Ylm.Create_Ylm_star(Y,Y0)
     Star=Star/np.sum(abs(Star))
     Starmem=Ylm.Create_Ylm_star(Y,Y0)
-    Vels=np.clip(Ylm.Ylm_Vels(Y,Star),-30,20) #  LOS projected
+    Vels=np.clip(Ylm.Ylm_Vels(Y,Star),-40,20) #  LOS projected
     longs,lats=np.meshgrid(Y.longitude,Y.latitude)  # in degrees
     
 
 
 
-    wvl=np.arange(-50,25,.1) 
+    wvl=np.arange(-100,40,.1) 
     
     perf=np.zeros(len(wvl))
     if True:
-        beta=1 # 0.2 for RW Cep, 1 for Betelgeuse    ### Only Betelgeuse for Fig5
+        beta=.2 # 0.2 for RW Cep, 1 for Betelgeuse
         Dopp=10.
     else:
         beta=1.
@@ -145,23 +146,30 @@ for cual in range(10):
     # plt.plot(bipos,bival)
     plt.xlabel('Wavelength (km/s)')
     plt.ylabel('Intensity')
-    plt.xlim(-50,25)
+    plt.xlim(-100,40)
     plt.ylim(0.75,1.1)
-    plt.subplot(1,2,2)
-    
-    perfobs=S['Data'][:,1]
-    plt.plot(S['Data'][:,0]-27,perfobs/perfobs.max()+cual*0.01,'b')
-    plt.xlim(-50,25)
-    plt.ylim(0.75,1.1)
-    plt.xlabel('Wavelength (km/s)')
-    plt.axvline(0,linestyle='--')
-    plt.axvline(-40,linestyle='--')
-    #plt.ylabel('Intensity')
-    plt.yticks([])
-    plt.subplots_adjust(wspace=0)
-    if beta==1:
-        plt.savefig('Fig5_art74.png')
-    # if beta==.2:
-    #     plt.savefig('Fig6_art74.png')  ## FIg6.py dispo
+plt.subplot(1,2,2)
+
+#perfobs=S['Data'][:,1]
+#plt.plot(S['Data'][:,0]-27,perfobs/perfobs.max()+cual*0.01,'b')
+                                                                                        
+f = h5py.File('rwcep-lsd.h5', 'r')
+count=0
+for item in list(f.keys()):
+    plt.plot(f[item][:,0]+20,0.01*count+1.-f[item][:,1],'b')
+    count=count+1
+
+plt.xlim(-100,40)
+#plt.ylim(0.75,1.1)
+plt.xlabel('Wavelength (km/s)')
+plt.axvline(0,linestyle='--')
+plt.axvline(-40,linestyle='--')
+#plt.ylabel('Intensity')
+plt.yticks([])
+plt.subplots_adjust(wspace=0)
+# if beta==1:
+#     plt.savefig('Fig5_art74.png')
+if beta==.2:
+    plt.savefig('Fig6_art74.png')
     
 plt.show()

@@ -3,50 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: art74.aux
 The style file: /Users/art2/TeX/aanda/bibtex/aa.bst
 Database file #1: art74.bib
-Warning--I didn't find a database entry for "XXX"
 Warning--I didn't find a database entry for "muCep"
-Warning--I didn't find a database entry for "Donati"
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in donati_espadons_2006
 Warning--empty institution in lopez_ariste_three-dimensional_2022
-You've used 8 entries,
+You've used 13 entries,
             3039 wiz_defined-function locations,
-            717 strings with 6556 characters,
-and the built_in function-call counts, 4758 in all, are:
-= -- 383
-> -- 472
-< -- 3
-+ -- 160
-- -- 150
-* -- 420
-:= -- 896
-add.period$ -- 8
-call.type$ -- 8
-change.case$ -- 84
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 146
-empty$ -- 206
-format.name$ -- 172
-if$ -- 925
+            748 strings with 7754 characters,
+and the built_in function-call counts, 7336 in all, are:
+= -- 598
+> -- 684
+< -- 4
++ -- 233
+- -- 216
+* -- 649
+:= -- 1372
+add.period$ -- 13
+call.type$ -- 13
+change.case$ -- 129
+chr.to.int$ -- 13
+cite$ -- 15
+duplicate$ -- 240
+empty$ -- 337
+format.name$ -- 249
+if$ -- 1429
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 7
-newline$ -- 28
-num.names$ -- 32
-pop$ -- 78
+missing$ -- 12
+newline$ -- 43
+num.names$ -- 52
+pop$ -- 116
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 124
 quote$ -- 0
-skip$ -- 128
+skip$ -- 208
 stack$ -- 0
-substring$ -- 162
+substring$ -- 278
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
-warning$ -- 1
-while$ -- 31
+type$ -- 117
+warning$ -- 2
+while$ -- 51
 width$ -- 0
-write$ -- 84
-(There were 4 warnings)
+write$ -- 136
+(There were 3 warnings)

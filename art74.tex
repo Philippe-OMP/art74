@@ -55,23 +55,34 @@ Toulouse, France.}}
 % \abstract{}{}{}{}{} 
 % 5 {} token are mandatory
  
-  \abstract
+  \abstract{
   
   % context heading (optional)
-  {Spectropolarimetry of atomic lines in the spectra of Betelgeuse and other Red SuperGiants presents broad  line profiles in 
-  linear polarization, but narrow profiles in intensity. Recent observations of the Red SuperGiant RW Cep show on the other 
-  hand broad intensity profiles comparable to those in linear polarization. This observation hints that the previous inconsistency 
+  Spectropolarimetry of atomic lines in the spectra of Betelgeuse, and other Red SuperGiants, presents broad  line profiles in 
+  linear polarization, but narrow profiles in intensity. Recent observations of the Red SuperGiant RW Cep show, on the other 
+  hand, broad intensity profiles, comparable to those in linear polarization. This observation hints that the previous inconsistency 
   observed in other Red SuperGiants is just a temporary situation of the atmosphere of a given star. We propose an explanation 
-  for both cases based on the presence of strong gradients, larger than the thermal broadening of the spectral line. Using 
-  analytical but }
+  for both cases based on the presence of strong gradients larger than the thermal broadening of the spectral line. Using 
+  analytical but very simple radiative transfer we can compute intensity line profiles in such scenarios. We find that they qualitatively 
+  match the observed broadenings: large gradients are required for the narrow profiles of Betelgeuse, small gradients for the broad profiles 
+  of RW Cep. Profile bisectors are also reasonably well explained by this scenario in spite of the simple radiative transfer treatment. 
+  
+  These results give a comprehensive explanation of both intensity and polarisation profiles. They give als comfort to the approximation
+  of a single-scattering event used in explaining the observed linear polarization in the inference of images of the photosphere of Betelgeuse and 
+  other Red SuperGiants.
+
+  The atmospheres of Red SuperGiants appear to be able, perhaps cyclically, to either produce large velocity gradients that stop photospheric plasma 
+  from reaching the upper atmosphere and that must hinder large events of mass loss, either to  leave vertical movements unchanged, letting 
+  plasma  raising, escaping gravity and forming large dust clouds in the circumstellar environement. It is an open question what events in the atmosphere 
+  produce the evolution from one case to the other. }
   % {} leave it empty if necessary  
-   {}
+  % {}
   % aims heading (mandatory)
-   {}
+   %{}
   % methods heading (mandatory)
-   { }
+   %{ }
      % results heading (mandatory)
-   {}
+   %{}
   % conclusions heading (optional), leave it empty if necessary 
   
    \keywords{}
@@ -92,7 +103,7 @@ plasma plumes that barely change velocity as they rise through the atmosphere of
 hitherto unidentified but present from the photospheric heights and able to equilibrate forces with gravity and maintain plasma velocities as 
 they approach the height at which they will definitely escape as stellar wind.
 
-These successes were founded in a series of approximations about the polarized line formation which have been discussed and partially justified  the cited literature {REFERENCE}. Among them, perhaps the weakest is the imposition of a relationship between brightness and vertical velocity. Such correlation 
+These successes were founded in a series of approximations about the polarized line formation which have been discussed and partially justified  the cited literature. Among them, perhaps the weakest is the imposition of a relationship between brightness and vertical velocity. Such correlation 
 is observed whenever the line formation happens while convection is still the dominant dynamical process, as in the Sun. Numerical simulations of the 
 photosphere [REFERENCE] of Betelgeuse appear to infirm such relationship and suggest that the line formation region of most of the atomic lines present in 
 the spectum resides above the convective zones, and brightness 
@@ -105,12 +116,12 @@ vertical velocities is still valid. Such histeresis loops could be seen in obser
 by radiative transfer through stellar snapshots  numerically simulated. But these same authors claimed that such histeresis loops may be understood 
 not as reflecting that lines form where convection takes place, but rather that acoustic waves or pulsations may propagate correlations of the 
 kind to selected patches well above where convection dominates and where atomic lines form. 
-Since, traditionally, convection has also been called for to explain the C-shape line asymmetries [REFERENCE GRAY?], it should go without further justification that 
+Since, traditionally, convection has also been called for to explain the C-shape line asymmetries \citep{gray_mass_2008}, it should go without further justification that 
 it is in the intensity profile that we should seek the answer to the validity of the brightness-velocity correlation at the core of the interpretation
 of the measured linear polarization in terms of images of convective structures. 
 
 However, inspection of the observed intensity and linear polarization profiles makes it clear that there is a further problem with intensity profiles 
-than just correctly interpreting bisectors or hysteresis loops. As emphasized by \cite{XXX}, the intensity profiles observed on Betelgeuse are astonishingly 
+than just correctly interpreting bisectors or hysteresis loops. As emphasized by \cite{lopez_ariste_three-dimensional_2022}, the intensity profiles observed on Betelgeuse are astonishingly 
 narrower than the width of the linear polarization signal. This is illustrated once again in Fig. \ref{obsprofiles}, where the limits of $v_0$, the assumed velocity 
 of the star, and $v_{max}$, the assumed highest velocity of the rising plasma are also shown. These two limits are set by simple inspection of the
 accumulated data set of linear polarization profiles. In a model of pure convective movements, all that is bright is rising vertically, and the most 
@@ -151,7 +162,7 @@ In the process to understand the intensity profiles of Betelgeuse, a key element
 is not particularly different than Betelgeuse or any other well classified RSG. Any differences between Betelgeuse and RW Cep, as with any other star 
 must be mostly attributed to whatever the star is doing right now: is it quietly convecting as Betelgeuse appears to do (except perhaps during 
 the recent great dimming event), or is it in a Decin stage as $\mu$ Cep, with repeated events of large plumes raising sufficiently high to escape 
-gravity and form a new shell of dust clumps. It was a big surprise to discover therefore that RW Cep presents in our 2023 observations a large and 
+gravity and form a new shell of dust clumps \citep{lopez_ariste_height_2023,decin_probing_2006}. It was a big surprise to discover therefore that RW Cep presents in our 2023 observations a large and 
 broad profile, fully compatible with the linear polarisation signals and unlike anything observed in Betelgeuse in the last 10 years. RW Cep is 
 doing something right now which broadens the profiles. Atmospheric dynamics, in its most broad sense, are therefore able to broaden or narrow intensity 
 profiles. The narrow profiles are not intrinsic to an RSG, they are rather due to the present dynamics of the star. This realisation opened the path 
@@ -277,7 +288,7 @@ appears to be what is needed to reproduce the observed intensity profiles in dif
 
 \begin{figure*}
    \includegraphics[width=\textwidth]{RWCep-LSD.pdf}
-   \caption{ Examples of profiles of RW Cep observed with NeoNarval in 2023.  Intensity is on the left plot, Stokes Q and U are shown 
+   \caption{ Examples of profiles of RW Cep observed with NeoNarval in 2023 (dates indicated in the legend).  Intensity is on the left plot, Stokes Q and U are shown 
    in the center and right plots.}
    %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
    %\caption{Velocity position (upper plot) and span (lower plot) of the linear polarization spectral features of $\mu$ Cep over the whole data set of available observations. On the top plot, dots record the position of the signal peaks, while in the bottom plot the vertical lines show the span of signal above noise level. The two horizontal lines in both plots mark the velocity of the center of mass of the star $V_*$ (red line, at +35 \kms) and the maximum velocity of the convecting plasma $V_p$ (blue line, at -35\kms). Velocities are measured in the heliocentric reference system.}
@@ -285,8 +296,8 @@ appears to be what is needed to reproduce the observed intensity profiles in dif
    \end{figure*}
 
 Figures \ref{obsprofiles} and \ref{observed} shows selected examples of profiles of Betelgeuse and RW Cep respectively, which represent the two extremes of profile shapes 
-observed in RSGs with Narval and its updated version, NeoNarval \cite[see][for a description of both instruments and the data reduction procedures]{lopez_ariste_three-dimensional_2022,Donati}.
-What we are presenting in all our plots are cross-correlation profiles made by the addition of many different spectral lines  \citep{josselin_atmospheric_2007}[RFERENCE DONATI??]. Most 
+observed in RSGs with Narval and its updated version, NeoNarval \cite[see][for a description of both instruments and the data reduction procedures]{lopez_ariste_three-dimensional_2022,donati_espadons_2006}.
+What we are presenting in all our plots are cross-correlation profiles made by the addition of many different spectral lines  \citep{josselin_atmospheric_2007,donati_spectropolarimetric_1997}. Most 
 often all those lines are added up irrespective of their line depression, formation height or any other 
 attribute. This is what has been done in the case of the profiles shown in  Fig. \ref{observed}. In the case of Betelgeuse, the presented profiles date from 2013 and 2014. This data has been presented before by 
 \cite{auriere_discovery_2016} who discuss also the line lists used in the cross-correlation. Though Betelgeuse is being observed periodically 
@@ -386,7 +397,7 @@ the observed intensity profiles.
 
 \begin{figure*}
    \includegraphics[width=0.8\textwidth]{Fig6_art74.png}
-   \caption{Left: Same as Fig. \ref{betelbeta1} but for $\beta=0.2$. Right: THESE ARE NOT THE OBSERVED PROFILES OF RW Cep but just the profiles of Betelgeuse}
+   \caption{Left: Same as Fig. \ref{betelbeta1} but for $\beta=0.2$. The maximum velocity has been kept at 40\kms as in Betelgeuse. Right: Observed intensity profiles of RW Cep  as in Fig.3}
    %\includegraphics[width=0.5\textwidth]{mucep_polarization_peaks_limits_v2.png}
    %\caption{Velocity position (upper plot) and span (lower plot) of the linear polarization spectral features of $\mu$ Cep over the whole data set of available observations. On the top plot, dots record the position of the signal peaks, while in the bottom plot the vertical lines show the span of signal above noise level. The two horizontal lines in both plots mark the velocity of the center of mass of the star $V_*$ (red line, at +35 \kms) and the maximum velocity of the convecting plasma $V_p$ (blue line, at -35\kms). Velocities are measured in the heliocentric reference system.}
    \label{RWbeta}
@@ -465,7 +476,7 @@ a simple radiative transfer model as the one  we  have chosen. Before, the prese
 compatible the broad linear polarisation profiles and the narrow intensity profiles of Betelgeuse, while reducing those gradients was the
 simple change  required to also explain the broader RW Cep profiles. This main conclusion also applies when trying to reproduce bisectors.
  Fig. \ref{bisector1} shows 
-the bisectors of disk-integrated profiles using the inferred image of Betelgeuse for the date of XXXX. The square root gradient law
+the bisectors of disk-integrated profiles using the inferred image of Betelgeuse for the date of December, 20th 2013. The square root gradient law
 is used as before in all cases. However, the value of $\beta$ is changed to simulate several situations: from almost no gradient ($\beta=0.1$) to a
  full decrease to zero  velocity along the line formation region ($\beta=1$). Affording very low gradients while maintaining the gaussian shape 
  of Betelgeuse profiles and not drifting towards 
@@ -479,7 +490,7 @@ and brightness inhomogeneities inferred from the fit of the linear polarisation 
 
 The lines formed in the top photospheric layers present in Fig.\ref{couche6} a pronouncedly inverse C-shape at all dates. These lines  dominate at particular dates 
 the total  cross-correlation line profile. This global profile  may present at particular dates an inverse C-shape,
-though often it  presents a normal C-shape. But when isolated in separate layers, the bisectors of lines forming in either layer 
+though often it  presents a normal C-shape \citep{gray_mass_2008}. But when isolated in separate layers, the bisectors of lines forming in either layer 
 maintain their shape at all dates. This inverse 
 C-shape  we observed in lines forming in  the top photospheric layers is traditionally interpreted as the presence of accelerating and rising plasma. And so 
 appears to be the case in our simple model  as well. To reproduce these inverse-C bisectors we need to abandon the square root decrease in velocity and 
@@ -576,7 +587,7 @@ linear polarisation, are comforted by our results.
 If our conclusions are correct, RW Cep is at present not capable of diminishing the large vertical velocities of its photospheric plasma. These large 
 velocities may help larger amounts of plasma escape the gravity and we may expect RW Cep to spell larger clouds of circumstellar dust. Betelgeuse on the 
 contrary is mostly able to slow down plasma and its stellar wind must be dwindling. How two RSG, mostly identical in their fundamental parameters, can 
-behave so differently is an open question. The apparent existance of cyclical Decin stages \citep{XXX} supports the idea that these larger or smaller velocity 
+behave so differently is an open question. The apparent existance of cyclical Decin stages \citep{decin_probing_2006,lopez_ariste_height_2023} supports the idea that these larger or smaller velocity 
 gradients appear periodically in the life of a Red SuperGiant.
 
 

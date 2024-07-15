@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{13}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{Auri{\`e}re {et~al.}(2016)Auri{\`e}re, L{\'o}pez~Ariste, Mathias,
@@ -13,6 +13,25 @@ Bertout, C. \& Magnan, C. 1987, Astronomy and Astrophysics, 183, 319
 
 \bibitem[{Chandrasekhar(1945)}]{chandrasekhar_formation_1945}
 Chandrasekhar, S. 1945, Reviews of Modern Physics, 17, 138
+
+\bibitem[{Decin {et~al.}(2006)Decin, Hony, de~Koter, Justtanont, Tielens, \&
+  Waters}]{decin_probing_2006}
+Decin, L., Hony, S., de~Koter, A., {et~al.} 2006, Astronomy \& Astrophysics,
+  456, 549
+
+\bibitem[{Donati {et~al.}(2006)Donati, Catala, Landstreet, \&
+  Petit}]{donati_espadons_2006}
+Donati, J.~F., Catala, C., Landstreet, J.~D., \& Petit, P. 2006, 358, 362,
+  conference Name: Solar Polarization 4 ADS Bibcode: 2006ASPC..358..362D
+
+\bibitem[{Donati {et~al.}(1997)Donati, Semel, Carter, Rees, \&
+  Collier~Cameron}]{donati_spectropolarimetric_1997}
+Donati, J.-F., Semel, M., Carter, B.~D., Rees, D.~E., \& Collier~Cameron, A.
+  1997, Monthly Notices of the Royal Astronomical Society, 291, 658
+
+\bibitem[{Gray(2008)}]{gray_mass_2008}
+Gray, D.~F. 2008, The Astronomical Journal, 135, 1450, aDS Bibcode:
+  2008AJ....135.1450G
 
 \bibitem[{Josselin \& Plez(2007)}]{josselin_atmospheric_2007}
 Josselin, E. \& Plez, B. 2007, Astronomy and Astrophysics, 469, 671
@@ -35,6 +54,11 @@ L{\'o}pez~Ariste, A., Georgiev, S., Mathias, P., {et~al.} 2022,
   Montarg{\`e}s}]{lopez_ariste_convective_2018}
 L{\'o}pez~Ariste, A., Mathias, P., Tessore, B., {et~al.} 2018, Astronomy and
   Astrophysics, 620, A199
+
+\bibitem[{L{\'o}pez~Ariste {et~al.}(2023)L{\'o}pez~Ariste, Wavasseur, Mathias,
+  L{\`e}bre, Tessore, \& Georgiev}]{lopez_ariste_height_2023}
+L{\'o}pez~Ariste, A., Wavasseur, M., Mathias, P., {et~al.} 2023, Astronomy and
+  Astrophysics, 670, A62, aDS Bibcode: 2023A\&A...670A..62L
 
 \bibitem[{Wagenblast {et~al.}(1983)Wagenblast, Bertout, \&
   Bastian}]{wagenblast_spectral_1983}
